@@ -39,6 +39,7 @@ class zabbix::params {
   $zabbix_package_state                     = 'present'
   $manage_database                          = true
   $manage_vhost                             = true
+  $default_vhost                            = false
   $manage_firewall                          = false
   $manage_repo                              = true
   $manage_resources                         = false
